@@ -1,0 +1,24 @@
+.fresh{
+    display: grid;
+    place-items: center;
+}
+
+h1{
+    color: var(--VeryDarkCyan);
+}
+
+p{
+    color: var(--VeryDarkCyan);
+}
+
+.mt4{
+    border-radius: 30px;
+    background-color:  hsl(321, 100%, 78%);
+    border-color:  hsl(321, 100%, 78%);
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}

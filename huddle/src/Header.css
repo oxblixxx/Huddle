@@ -1,0 +1,38 @@
+body{
+    height: 10px;
+    
+}
+                /*  */
+:root{
+    --Pink: hsl(322, 100%, 66%);
+    --LightPink: hsl(321, 100%, 78%);
+    --LightRed: hsl(0, 100%, 63%);
+    --VeryDarkCyan: hsl(192, 100%, 9%);
+    --VeryPaleBlue: hsl(207, 100%, 98%);    
+}
+
+
+li{
+    list-style-type: none;
+}
+
+.btn{
+    right: 40px;
+    position: absolute;
+    border-radius: 20px;
+    color: var(--LightPink);
+    border-color: var(--LightPink);
+}
+
+.btn:hover{
+    cursor: grab;
+}
+
+img{
+    width: 200px;
+}
+
+.flex{
+    top:40px;
+    position: relative;
+}

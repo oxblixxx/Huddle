@@ -1,0 +1,8 @@
+.mock{
+    width: 800px;
+}
+
+.full{
+     display: grid;
+    place-content: center;
+}

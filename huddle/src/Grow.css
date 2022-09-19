@@ -1,0 +1,9 @@
+.togetherImg{
+    width: 80%;
+}
+
+.top-section{
+    background-image: url(./images/bg-section-top-desktop-1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
