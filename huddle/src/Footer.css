@@ -14,11 +14,46 @@ footer{
     justify-content: space-between;
 }
 
+   /* LEFT FOOTER  */
+
+
+.footer-logo{
+    background-image: url(./images/logo.svg);
+    background-size: 40%;
+    text-indent: -939993px;
+    background-repeat: no-repeat;
+    height: 50px;
+}
+
+.phone-no-img{
+    background-image: url(./images/icon-phone.svg);
+    height: 30px;
+    background-repeat: no-repeat;
+}
+
+.phone-number{
+    display: flex;
+}
+
+.email{
+    display: flex;
+}
+
+.email-img{
+    background-image: url(./images/icon-email.svg);
+    height: 30px;
+    width: 30px;
+    background-repeat: no-repeat;
+}
+
+
+
 .left-footer{
     background-color: red;
     position: relative;
     left: 100px;
-    width: 300px;
+    width: 400px;
+    /* color: white; */
 
 }
 

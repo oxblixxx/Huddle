@@ -7,21 +7,26 @@ function Footer() {
       {/* LEFT SECTION */}
       <div className="left-footer">
         <div>
-          <span></span>
-          <h1>
+          <div className="footer-logo">a</div>
+          <p className="lorem">
             lorem ipsum dolor sit amet, consectetur adispicing elit. Mauris
             nulla quam, hendrerit lacinia vestibulum a, ultrices quis sem.
-          </h1>
+          </p>
         </div>
-        <div>
-          <span classname="phone-no-img"></span>
+        <div className="phone-number">
+          <div classname="phone-no-img">a</div>
+          <div>
+            <p>Phone: +1-543-123-4567</p>
+          </div>
         </div>
         <div className="email">
-          <span className="email-img"></span>
-          <h2>Phone: +1-543-123-4567</h2>
+          <div className="email-img">a</div>
+          <h2>example@huddle.com</h2>
         </div>
         <div>
-          <span className="fb"></span>
+          <span className="fb">
+            <FontAwesomeIcon icon="fa-brands fa-facebook" />
+          </span>
           <span className="insta"></span>
           <span className="twitter"></span>
         </div>
