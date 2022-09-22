@@ -1,6 +1,31 @@
-footer{
-    background-color: url("images/bg-footer-top-desktop.svg");
+/* .wave-svg{
+    background-image: url("./images/bg-footer-top-desktop.svg");
     height: 34em;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 100%;
+    background-position: center;
+} */
+
+footer{
+    background-color: hsl(192, 100%, 9%);
+    height: 500px;
+    position: absolute;
+    top: 600px;
+    justify-content: space-between;
+}
+
+.left-footer{
+    background-color: red;
+    position: relative;
+    left: 100px;
+    width: 300px;
+
+}
+
+.right-footer{
+    background-color: yellow;
+    position: relative;
+    right: 400px;
+    width: 300px;
+
 }

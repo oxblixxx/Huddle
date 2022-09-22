@@ -1,0 +1,9 @@
+.wave-svg{
+    background-image: url("./images/bg-footer-top-desktop.svg");
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    top: 100px;
+    background-position: center;
+}

@@ -6,6 +6,7 @@ import Communities from './Communities.js'
 import Grow from './Grow.js'
 import Support from './Support.js'
 import Footer from './Footer.js'
+import Wave from './Wave.js'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Communities />
       <Grow />
       <Support />
+      <Wave />
       <Footer />
     </div>
   )
