@@ -1,0 +1,27 @@
+.email-tab{
+    display: flex;
+    align-items: center;    
+}
+
+.phone-tab{
+    display: flex;
+    align-items: center;
+}
+
+.email{
+    margin-left: 20px;
+    color: white;
+}
+
+
+
+.phone{
+    margin-left: 20px;
+    color: white;
+}
+
+
+section{
+    display: flex;
+    flex-direction: column;
+}

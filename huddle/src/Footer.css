@@ -11,6 +11,7 @@ footer{
     height: 500px;
     position: absolute;
     top: 600px;
+    color: white;
     justify-content: space-between;
 }
 
@@ -18,49 +19,68 @@ footer{
 
 
 .footer-logo{
-    background-image: url(./images/logo.svg);
+    /* background-image: url(./images/logo.svg); */
     background-size: 40%;
+    /* background-color: azure; */
     text-indent: -939993px;
     background-repeat: no-repeat;
-    height: 50px;
+    fill: currentColor ;
 }
 
 .phone-no-img{
     background-image: url(./images/icon-phone.svg);
     height: 30px;
+    width: 30px;
     background-repeat: no-repeat;
+    text-indent: -88888888px;
 }
 
 .phone-number{
     display: flex;
 }
 
-.email{
-    display: flex;
-}
+
 
 .email-img{
-    background-image: url(./images/icon-email.svg);
     height: 30px;
-    width: 30px;
+    color: red;
+    width: 20px;
     background-repeat: no-repeat;
+    text-indent: -88888888px;
+
 }
 
 
 
 .left-footer{
-    background-color: red;
+    /* background-color: red; */
     position: relative;
     left: 100px;
+    top: 120px;
     width: 400px;
+    color: white;
     /* color: white; */
+    /* background-color: red; */
 
 }
-
+                /* RIGHT FOOTER */
 .right-footer{
-    background-color: yellow;
+    /* background-color: yellow; */
     position: relative;
-    right: 400px;
-    width: 300px;
+    right: 200px;
+    width: 400px;
+    top: 100px;
+}
 
+.newsletter, .receive{
+    color: white;
+}
+
+.subscribe-tab{
+    justify-content: space-between;
+    outline: none;
+}
+
+input{
+    outline: none;
 }
