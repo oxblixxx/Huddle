@@ -10,7 +10,8 @@ function LogoImg() {
         style={{
           width: '200px',
           height: '60px',
-          background: 'white',
+          color: 'white',
+          filter: 'brightness(0) invert(1)',
         }}
       />
     </>

@@ -6,4 +6,5 @@
 .soc-icons{
     position: relative;
     top: 30px;
+    cursor: grab;
 }

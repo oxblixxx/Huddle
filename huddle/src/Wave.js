@@ -5,7 +5,7 @@ import './Wave.css'
 function Wave() {
   return (
     <div>
-      <div className="wave-svg">a</div>
+      <div className="wave-svg"></div>
     </div>
   )
 }

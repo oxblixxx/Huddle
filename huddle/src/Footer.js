@@ -14,9 +14,9 @@ function Footer() {
       {/* LEFT SECTION */}
       <div className="left-footer">
         <LogoImg />
-        <Lorem style={{ background: 'red' }} />
+        <Lorem />
         <Contact />
-        <Socialicons className="social-icons" />
+        <Socialicons className="social-icons grow" />
       </div>
 
       {/* RIGHT-SECTION */}

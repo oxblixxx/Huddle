@@ -1,4 +1,4 @@
-.fresh{
+.build-the-community{
     display: grid;
     place-items: center;
 }
@@ -11,7 +11,7 @@ p{
     color: var(--VeryDarkCyan);
 }
 
-.mt4{
+.build-the-community-btn{
     border-radius: 30px;
     background-color:  hsl(321, 100%, 78%);
     border-color:  hsl(321, 100%, 78%);
